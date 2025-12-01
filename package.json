@@ -1,0 +1,24 @@
+{
+  "name": "playwright-test-project",
+  "version": "1.0.0",
+  "description": "A project set up for Playwright testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "install-playwright": "npx playwright install",
+    "install-deps": "npx playwright install-deps"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "allure-playwright": "^3.4.2"
+  }
+}
